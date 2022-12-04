@@ -11,7 +11,7 @@ def moving_the_mouse():
     screenWidth, screenHeight = pyautogui.size()
     x = random.randint(0,screenWidth-1)
     y = random.randint(0,screenWidth-1)
-    pyautogui.moveTo(x, y, 2) # Move the mouse to XY coordinates.
+    pyautogui.moveTo(x, y, 1) # Move the mouse to XY coordinates.
 
     
 
